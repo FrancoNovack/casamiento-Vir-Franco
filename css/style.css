@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-color: rgba(223, 223, 169, 0.582);
+}
+
+header h1{
+    text-align: center;
+    text-decoration: overline;
+    font-size: 30px;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.342);
+    font-style:oblique;
+}
+.entrada img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.iglesia img{
+    width: 100%;
+}
+.iglesia button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0.137);
+    font-size: 30px;
+    padding: 4px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 127, 80, 0.808);
+    font-size: 25px;
+}
+.regalos img {
+    width: 100%;
+    margin-top: 20px;
+}
+.precio-entrada img{
+    width: 100%;
+    margin-top: 20px;
+}
+.wspf {
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.137);
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+}
+.wspv{
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.137);
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.galeria{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(3,250px);
+}
+
+.galeria div{
+    background-color: aquamarine;
+    margin: 5px;
+}
+.img1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.img4{
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
