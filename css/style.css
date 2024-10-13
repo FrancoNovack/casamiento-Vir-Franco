@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color:rgb(235,228,220);
+    background-color:rgb(235,228,220) !important;
 }
 
 .banderin{
