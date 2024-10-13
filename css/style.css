@@ -78,17 +78,17 @@ header h1{
 
 
 .carrusel{
-    width: 70%;
+    width: 65%;
     height: 500px !important;
-    margin: 5% 15% 0 15%;
+    margin: 5% 17% 0 17%;
 }
 .carousel-item{
-    width: 70%;
-    height: 500px !important;
+    width: 65%;
+    height: 400px !important;
 }
 .carrusel img {
-    width: 70%;
-    height: 449px;
+    width: 65%;
+    height: 400px;
     border-radius: 15px;
 }
 .carrusel h2{
