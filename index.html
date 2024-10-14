@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="fonts.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,17 +16,43 @@
   <body>
     <header></header>
     <main>
-      <section>
+      <section class="auden">
         <img src="./img/banderin1.png" alt="" class="banderin" />
-        <div class="entrada">
+        <div class="entrada" >
+          <audio controls class="audio" >
+            <source src="/mp3/Perfect (spanish version) - Kevin & Karla_jb0K64SGsfc.mp3">
+          </audio>
           <img src="img/entrada2.jpg" alt="" />
         </div>
         <div class="iglesia">
           <img src="img/celebracion.jfif" alt="" />
+          <section class="temporizador">
+              <div class="fecha">
+                <p>¿ Cuanto falta <span id="fecha">1111</span> ?</p>
+              </div>
+            <div class="proxfecha">
+              <div class="grupo"> 
+                <p class="grande" id="dias"> 00 </p>
+                <p class="chico"> DIAS  </p>
+              </div>
+              <div class="grupo"> 
+                <p class="grande" id="horas"> 00 </p>
+                <p class="chico"> HORAS  </p>
+              </div>
+              <div class="grupo"> 
+                <p class="grande" id="minutos"> 00 </p>
+                <p class="chico"> MINUTOS  </p>
+              </div>
+              <div class="grupo"> 
+                <p class="grande" id="segundos"> 00 </p>
+                <p class="chico"> SEGUNDOS  </p>
+              </div>
+            </div>
+          </section>
           <button>
             <a href="https://maps.app.goo.gl/ECv31dPmrUtNSxd67" target="_blank"
-              class="ubi">UBICACION</a
-            >
+              class="ubi">UBICACION</a>
+
           </button>
         </div>
         <div class="regalos">
@@ -123,6 +148,10 @@
           </button>
         </div>
       </section>
+      <img src="" alt="">
+      <audio controls class="audio" >
+        <source src="/mp3/Perfect (spanish version) - Kevin & Karla_jb0K64SGsfc.mp3">
+      </audio>
     </main>
 
     <script
@@ -135,5 +164,7 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+      <script src="./javascrip.js/index.js">
+      </script>
   </body>
 </html>

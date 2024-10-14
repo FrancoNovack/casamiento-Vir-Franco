@@ -2,6 +2,19 @@ body{
     margin: 0px;
     background-color:rgb(235,228,220) !important;
 }
+.audio{
+    display: flex;
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top: 30px;
+    background-position-x: 100px;
+    width: 100px;
+    
+}
+.iconomusic:hover{
+    color: 333;
+}
 
 .banderin{
     width: 100%;
@@ -33,6 +46,39 @@ header h1{
     width: 100%;
     text-align: center;
     margin-top: 5px;
+}
+.temporizador{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.fecha p{
+    color: black;
+    font-size: 2vh;
+    font-family:fantasy ;
+    text-align: center;
+}
+.proxfecha{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.grupo{
+    line-height: 0.8;
+    text-align: center;
+    border: 2px solid coral;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    background-color: rgba(233, 119, 13, 0.308);
+    margin: 5px 5px 5px 20%;
+}
+.grande{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+
 }
 
 .ubi {    
@@ -98,4 +144,8 @@ header h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-bottom: 1px solid coral;
     border-right: 1px solid coral;
+}
+
+@media screen and (max-width:690px){
+
 }
