@@ -48,11 +48,15 @@ header h1{
     margin-top: 5px;
 }
 .temporizador{
-    background-color: rgba(0, 0, 0, 0.137);
+    background-image: url(../img/fondotemp.jfif);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .fecha p{
     color: black;
-    font-size: 2vh;
+    font-size: 20px;
     font-family:fantasy ;
     text-align: center;
 }
@@ -67,18 +71,20 @@ header h1{
 .grupo{
     line-height: 0.8;
     text-align: center;
-    border: 2px solid coral;
+    border: 2px solid rgba(240, 126, 81, 0.199);
     border-radius: 100%;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 85px;
     padding-top: 20px;
-    background-color: rgba(233, 119, 13, 0.308);
+    background-color: rgba(241, 223, 206, 0.123);
     margin: 5px 5px 5px 20%;
 }
 .grande{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
-
+    font-size: 30px;
+}
+.chico{
+    font-size: 15px;
 }
 
 .ubi {    
