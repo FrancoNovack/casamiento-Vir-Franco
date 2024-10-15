@@ -53,6 +53,7 @@ header h1{
     background-attachment: fixed;
     margin-top: 15px;
     margin-bottom: 20px;
+    height: 400px;
 }
 .fecha p{
     color: black;
@@ -89,7 +90,7 @@ header h1{
 
 .ubi {    
     text-decoration: none;
-    color: rgba(255, 127, 80, 0.808);
+    color: rgba(59, 22, 8, 0.699);
     font-size: 25px;
 }
 .regalos img {
@@ -121,26 +122,29 @@ header h1{
 }
 .wspf a{
     text-decoration: none;
-    color: rgba(255, 127, 80, 0.808);
+    color: rgba(59, 22, 8, 0.699);
 }
 .wspv a{
     text-decoration: none;
-    color: rgba(255, 127, 80, 0.808);
+    color: rgba(59, 22, 8, 0.699);
 }
-
+.vestimenta img{
+    height: 50% ;
+    width: 100%;
+}
 
 .carrusel{
     width: 65%;
-    height: 500px !important;
+    height: 70% !important;
     margin: 5% 17% 0 17%;
 }
 .carousel-item{
     width: 65%;
-    height: 400px !important;
+    height: 300px !important;
 }
 .carrusel img {
     width: 65%;
-    height: 400px;
+    height: 300px;
     border-radius: 15px;
 }
 .carrusel h2{
@@ -152,6 +156,3 @@ header h1{
     border-right: 1px solid coral;
 }
 
-@media screen and (max-width:690px){
-
-}
