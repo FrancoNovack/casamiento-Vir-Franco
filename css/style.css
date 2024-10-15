@@ -2,23 +2,11 @@ body{
     margin: 0px;
     background-color:rgb(235,228,220) !important;
 }
-.audio{
-    display: flex;
-    position: fixed;
-    cursor: pointer;
-    right: 20px;
-    top: 30px;
-    background-position-x: 100px;
-    width: 100px;
-    
-}
-.iconomusic:hover{
-    color: 333;
-}
 
-.banderin{
+
+.banderin img{
     width: 100%;
-    height: 1%;
+    height: 250px !important;
 }
 
 header h1{
@@ -53,7 +41,7 @@ header h1{
     background-attachment: fixed;
     margin-top: 15px;
     margin-bottom: 20px;
-    height: 400px;
+    height: 380px;
 }
 .fecha p{
     color: black;
@@ -67,7 +55,7 @@ header h1{
     column-gap: 20px;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 16vh;
 }
 .grupo{
     line-height: 0.8;
@@ -78,7 +66,7 @@ header h1{
     height: 85px;
     padding-top: 20px;
     background-color: rgba(241, 223, 206, 0.123);
-    margin: 5px 5px 5px 20%;
+    margin: 5px 5px 5px 35%;
 }
 .grande{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
