@@ -1,5 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');*
+    
+*{    
     margin: 0;
 }
 
@@ -14,16 +17,22 @@ h1{
     color:rgba(0, 0, 0, 0.808) !important;
     
 }
+body{
+    margin: 0px;
+    background-color:rgb(235,228,220) !important;
+}
 
 
 .banderin img{
     width: 100%;
     height: 100px !important;
-    
-
 }
 
+
 header h1{
+    text-align: center;
+    text-decoration: overline;
+    font-size: 30px;
     width: 100%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.342);
@@ -154,6 +163,9 @@ header h1{
     font-family: "Amatic SC", sans-serif;
     font-weight: 800px !important;
     color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-bottom: 1px solid coral;
     border-right: 1px solid coral;
 }
@@ -164,3 +176,4 @@ header h1{
     }
     
 }
+
