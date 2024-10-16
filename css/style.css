@@ -12,7 +12,7 @@ body{
 }
 h1{
     font-family: "Updock", cursive;
-    font-size: 20% !important;
+    font-size: 350% !important;
     text-align: center;
     color:rgba(0, 0, 0, 0.808) !important;
     
@@ -170,20 +170,15 @@ header h1{
     border-right: 1px solid coral;
 }
 
-@media screen and (max-width:900px) {
-    h1{
-        font-size: 499% !important;
-    }
-    
-}
 @media screen and (max-width:450px){
     h1{
         font-size: 70px !important;
     }
 }
 
-@media screen and (max-width:370px){
+@media (max-width:450px) and (min-width:300px){ 
     h1{
-        font-size: 50px !important;
-    }
+    font-size: 60px;
 }
+}
+
