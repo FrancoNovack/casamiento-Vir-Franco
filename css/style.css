@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');*{
+    margin: 0;
+}
+
+body{
+    margin: 0px;
+    background-image: url(/img/body.png);
+}
+h1{
+    font-family: "Updock", cursive;
+    font-size: 20vh !important;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.808) !important;
+    
+}
+
+
+.banderin img{
+    width: 100%;
+    height: 100px !important;
+    
+
+}
+
+header h1{
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.342);
+    font-style:oblique;
+}
+.entrada img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.iglesia img{
+    width: 100%;
+}
+.iglesia button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0.137);
+    font-size: 30px;
+    padding: 4px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.temporizador{
+    background-image: url(../img/fondotemp.jfif);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    height: 325px;
+}
+.fecha p{
+    color: black;
+    font-size: 20px;
+    font-family:fantasy ;
+    text-align: center;
+    padding-top: 15px;
+}
+.proxfecha{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+}
+.grupo{
+    line-height: 0.8;
+    text-align: center;
+    border: 2px solid rgba(240, 126, 81, 0.199);
+    border-radius: 100%;
+    width: 90px;
+    height: 85px;
+    padding-top: 20px;
+    background-color: rgba(241, 223, 206, 0.123);
+    margin: 5px 5px 5px 35%;
+}
+.grande{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.chico{
+    font-size: 15px;
+}
+
+.ubi {    
+    text-decoration: none;
+    color: rgba(59, 22, 8, 0.699);
+    font-size: 25px;
+}
+.regalos img {
+    width: 100%;
+    margin-top: 20px;
+}
+.precio-entrada img{
+    width: 100%;
+    margin-top: 20px;
+}
+.wspf {
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.137);
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(255, 127, 80, 0.808);
+}
+.wspv {
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.137);
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgba(255, 127, 80, 0.808);
+}
+.wspf a{
+    text-decoration: none;
+    color: rgba(59, 22, 8, 0.699);
+}
+.wspv a{
+    text-decoration: none;
+    color: rgba(59, 22, 8, 0.699);
+}
+.vestimenta img{
+    height: 50% ;
+    width: 100%;
+}
+
+.carrusel{
+    width: 65%;
+    height: 70% !important;
+    margin: 5% 17% 0 17%;
+}
+.carousel-item{
+    width: 65%;
+    height: 300px !important;
+}
+.carrusel img {
+    width: 65%;
+    height: 300px;
+    border-radius: 15px;
+}
+.carrusel h2{
+    margin-left: 8%;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800px !important;
+    color: black;
+    border-bottom: 1px solid coral;
+    border-right: 1px solid coral;
+}
+
+@media screen and (max-width:900px) {
+    h1{
+        font-size: 499% !important;
+    }
+    
+}
